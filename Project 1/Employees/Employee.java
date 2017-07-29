@@ -30,9 +30,4 @@ public class Employee {
     public String toString() {
         return "\n\tName: " + name + "\n\tMonthly Salary: $" + df.format(this.monthlySalary) + "\n\tAnnual Salary: $" + df.format(this.annualSalary());
     }
-
-    // Display Method
-    public void display() {
-        System.out.print("<<Employee>>" + this);
-    }
 }

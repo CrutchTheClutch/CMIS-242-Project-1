@@ -38,9 +38,4 @@ public class Salesman extends Employee {
     public String toString() {
         return super.toString() + "\n\tAnnual Sales: $" + df.format(this.annualSales);
     }
-
-    // Display Method
-    public void display() {
-        System.out.print("<<Salesman>>" + this);
-    }
 }

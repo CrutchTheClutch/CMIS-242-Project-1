@@ -40,9 +40,4 @@ public class Executive extends Employee {
     public String toString() {
         return super.toString() + "\n\tStock Price: $" + df.format(this.stockPrice);
     }
-
-    // Display Method
-    public void display() {
-        System.out.print("<<Executive>>" + this);
-    }
 }
